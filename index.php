@@ -3,7 +3,7 @@
     <head>
         <title>ProgDemy</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style1.css" />
+        <link rel="stylesheet" href="./styles/style1.css" />
     </head>
 
     <body>
