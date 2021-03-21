@@ -63,7 +63,7 @@
 
         <section class="part3">
             <div class="part3__title">
-               <h2>Was unsere Studenten denken</h2>
+               <h2>Was unsere Studenten denken </h2>
             </div>
             <div class="both">
                 <div class="firstOfBoth">
