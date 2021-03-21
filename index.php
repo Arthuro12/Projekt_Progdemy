@@ -13,7 +13,7 @@
             </div>
             <nav>               
                 <ul>
-                    <li style="border-left: 0; padding-left: 0; margin-left: 0;"><a href="#">STARTSEITE</a></li>
+                    <li style="border-left: 0; padding-left: 0; margin-left: 0;"><a href="index.php">STARTSEITE</a></li>
                     <li style="border-left: 1px solid black; padding-left: 1em; margin-left: 1em;"><a href="#">KURSE</a></li>
                     <li style="border-left: 1px solid black; padding-left: 1em; margin-left: 1em;"><a href="#">ANMELDUNG</a></li>
                     <li style="border-left: 1px solid black; padding-left: 1em; margin-left: 1em;"><a href="#">REGISTRIERUNG</a></li>
@@ -34,7 +34,7 @@
 
         <section class="part1">
             <div class="part1-description">
-               <h1>Kurse wie keine andere</h1><br />
+               <h1>Kurse wie keine andere</h1>
                <p>Apollinares quaedam Apollinares in constaret post lapide actitata<br />
                filius ab multiplices post ambigerentur non igitur lapide levius<br /> quarto multorum pervenissent.</p><br />
                <a href="#">Mehr wissen</a>
@@ -51,9 +51,9 @@
             <div class="part2-description">           
                <p>
                     Quibus occurrere bene pertinax miles explicatis ordinibus parans hastisque feriens 
-                    scuta qui habitus iram pugnantium concitat et dolorem proximos iam <br >gestu terrebat sed
+                    scuta qui habitus iram pugnantium concitat et dolorem proximos iam gestu terrebat sed
                     eum in certamen alacriter consurgentem revocavere ductores rati intempestivum anceps
-                    subire certamen cum haut longe muri distarent,<br > quorum tutela se curitas poterat in solido locari cunctorum.
+                    subire certamen cum haut longe muri distarent,quorum tutela se curitas poterat in solido locari cunctorum.
                </p><br >
                <div class="part2-description__btn">
                    <a href="#">Starten Sie eine Ausbildung</a>

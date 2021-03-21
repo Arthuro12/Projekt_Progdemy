@@ -17,7 +17,7 @@
     src: url('./fonts/Acme-Regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('./fonts/Acme-Regular-webfont.woff2') format('woff2'),
          url('./fonts/Acme-Regular-webfont.woff') format('woff'),
-         url('./fonts/Acme-Regular-webfont.ttf') format('truetype'),
+         url('./fonts/-Regular-webfont.ttf') format('truetype'),
          url('./fonts/Acme-Regular-webfont.svg#acmeregular') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -66,7 +66,7 @@ nav ul a:hover
 /*Banner*/
 .banner
 {
-    background: url("Images/programmingJpg.jpg") no-repeat;
+    background: url("../Images/programmingJpg.jpg") no-repeat;
     background-size: cover;
     height: 30em;
 }
@@ -110,8 +110,9 @@ nav ul a:hover
 }
 .part1-description
 {
-    padding-top: 7em;
+    padding-top: 5em;
     margin-right: 3em;
+    font-size: 22px;
 }
 .part1__img
 {
@@ -146,9 +147,19 @@ nav ul a:hover
     margin-top: 4em;
     color: #00e600;
 }
+.part2 h2
+{
+    font-size: 27px;
+}
 .part2 p, .part2__title
 {
     text-align: center;
+}
+.part2-description
+{
+    margin-left: 4em;
+    margin-right: 4em;
+    font-size: 22px;
 }
 .part2-description__btn
 {
@@ -270,4 +281,137 @@ footer ul li a:hover, .footer__child2 a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+/*Responsive design*/
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: 100%;
+        padding: 0px;
+    } 
+    nav ul a
+    {
+        font-size: 24px;;
+    }
+    .banner h1 
+    {
+        font-size: 39px;
+    }
+    .banner p
+    {
+        font-size: 30px;
+    }
+    .banner a
+    {
+        font-size: 30px;
+    }
+    .part1
+    {
+        flex-direction: column;
+        height: 97em;;
+        width: 100%;
+    }
+    .part1-description 
+    {
+        padding-top: 0;
+        margin-left: 2em;
+        font-size: 44px;
+        text-align: left;
+    }
+    .part1__img 
+    {
+        padding-top: 7em;
+        
+    }
+    .part1 p
+    {
+        margin-top: 29px;    
+    }
+    .part1 img 
+    {
+        height: 30em;
+        width: 55em;
+    }
+    .part2
+    {
+        width: 100%;
+        height:77em;
+    }
+    .part2 h2
+    {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 1.8em;
+    }
+    .part2 p
+    {
+        font-size: 44px;
+        text-align: left;
+        margin-left: 0.3em;
+        margin-right: 3em;;
+    }
+    .part2-description__btn
+    {
+        text-align: left;
+        margin-left: 0.7em;
+        margin-top: 1em;
+    }
+    .part2 a
+    {
+        font-size: 44px;  
+    }
+    .part3
+    {
+        height: 50em;
+    }
+    .both
+    {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4em;
+    }
+    .part3__title
+    {
+        text-align: center;
+        font-size: 30px
+    }
+    .secondOfBoth 
+    {
+        display: none;
+    }
+    .firstOfboth 
+    {
+        left: 30em;
+    }
+    .firstOfBoth h4, .firstOfBoth cite, .firstOfBoth p
+    {
+        font-size: 27px;;
+    }
+    .firstOfBoth__img 
+    {
+        margin-left: 4em; 
+    }
+    .firstOfBoth__description 
+    {
+        margin-left: 2em;
+    }
+    footer p
+    {     
+        font-size: 26px;
+        padding-left: 0.7em;
+    }
+    footer p
+    {
+        margin-left: 1em;
+    }
+    footer a
+    {
+        font-size: 24px;
+    }
+    footer h3
+    {
+        font-size: 24px;
+    }
 }
